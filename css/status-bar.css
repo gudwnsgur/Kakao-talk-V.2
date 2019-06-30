@@ -1,0 +1,13 @@
+.status-bar {
+    display: flex;  /* Array to horizontal not vertical */
+    justify-content: space-between;    /* 요소들 사이에 여유공간을 두고 배치된다. */
+    margin-bottom: 30px;
+    opacity: 0.65;  /* definition(선명도) of color */
+}
+.status-bar i {
+    font-size : 14px;
+}
+.status-bar .status-bar__battery-level {
+    margin-left: 5px;
+}
+

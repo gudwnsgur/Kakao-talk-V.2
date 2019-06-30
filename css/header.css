@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  /* align-items : array of perpendicular way (수직 방향 정렬) */
+                          /* center : 수직 방향에서 중앙에 위치 */
+    margin-bottom : 30px;
+}
+.header .header__title {
+    font-size : 24px;
+    font-weight: 600;
+}
+.header .header__icon {
+    font-size : 20px;
+    margin-left: 20px;
+    cursor : pointer;   /* link 부분에 cursor를 pointer로 변경 */
+}
+.header .header__header-column {
+    display :flex;
+    align-items: center;
+}
+.header .header__back-btn {
+    font-size: 22px;
+    margin-right: 20px;
+
+}
