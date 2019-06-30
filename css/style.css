@@ -2,6 +2,13 @@
 @import  url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap');
 @import "status-bar.css";
 @import "header.css";
+@import "nav-bar.css";
+@import "friend.css";
+
+* {
+    box-sizing: border-box;    /* padding을 추가하면 box가 커진다.  */
+     /* padding을 추가해도 Width, Height가 커지지 않게 해준다. */
+}
 
 body{
     background-color: white;
@@ -12,5 +19,6 @@ body{
                  'Open Sans', 'Helvetica Neue', sans-serif;
 }
 a {
-    color: inherit; /* inherit : 부모의 색 */
+    color: inherit; /* inherit   : 부모의 색 */ 
+    text-decoration: none;
 }

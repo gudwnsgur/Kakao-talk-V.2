@@ -4,6 +4,10 @@
     align-items: center;  /* align-items : array of perpendicular way (수직 방향 정렬) */
                           /* center : 수직 방향에서 중앙에 위치 */
     margin-bottom : 30px;
+    /*
+    position: fixed;
+    width : 50px;
+    */
 }
 .header .header__title {
     font-size : 24px;
