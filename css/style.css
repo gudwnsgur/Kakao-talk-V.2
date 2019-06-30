@@ -1,11 +1,13 @@
 @import "reset.css";
-@import  url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap');
+@import  url('https://fonts.googleapis.com/css?family=Open+Sans:300:400,600&display=swap');
 @import "status-bar.css";
 @import "header.css";
 @import "nav-bar.css";
 @import "friend.css";
 @import "friends.css";
 @import "find.css";
+@import "more.css";
+@import "settings.css";
 
 * {
     box-sizing: border-box;    /* padding을 추가하면 box가 커진다.  */
