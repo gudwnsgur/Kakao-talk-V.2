@@ -21,8 +21,10 @@
 .friend .friend__avatar {
     margin-right: 15px;
 }
+
 .friend__content .friend__name{
     display: block;  /* block : 위아래로 정렬 */
+    font-weight: 600;
     margin-bottom: 5px;
 }   
 
@@ -40,3 +42,24 @@
     font-size : 12px;
 }
 
+.friend .friend__now-listening {
+    padding : 5px 10px;
+    border-radius : 15px;
+    border : solid 2px #52e084;
+    font-size : 14px;
+    }
+.friend__now-listening span {
+    opacity: 0.7;
+}
+.friend .friend__now-listening i {
+    font-size : 12px;
+    color: #38b965;
+}
+.friend__add-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color : #f5f5f5;
+    padding : 10px 15px;
+    border-radius: 5px;
+}
