@@ -9,6 +9,7 @@
 @import "more.css";
 @import "settings.css";
 @import "chat.css";
+@import "mobile.css";
 
 * {
     box-sizing: border-box;    /* padding을 추가하면 box가 커진다.  */

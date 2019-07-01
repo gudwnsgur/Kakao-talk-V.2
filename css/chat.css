@@ -1,3 +1,10 @@
+.header-wrapper {
+    position: fixed;
+    top : 0px;
+    width : 100%;
+     background-color: white;
+    padding : 5px 0px;
+}
 .chats-body {
     padding: 0;
 }
@@ -5,44 +12,63 @@
 .chats-body .status-bar {
     padding : 0px 20px;
 }
-.chat-screen {
+.chats-body {
     background-image: url(../images/chatBG2.png);
     min-height: 100vh;
+    padding-top : 100px;
 }
-.chat__write {
+.chat__write-container {
     position : fixed;
-    bottom: 50px;
-    width : 80%;
+    bottom :0;
     display: flex;    
     background-color: #fcfcfc;
     padding : 0px 20px;
-    border-radius: 40px;
     margin : 0 auto;
     justify-content: space-between;
     align-items: center;
     left:0;
     right: 0;
-    box-shadow: 0 13px 27px -5px rgba(50,50,93,.25), 
-                0 8px 16px -8px rgba(0,0,0,.3), 
-                0 -6px 16px -6px rgba(0,0,0,.025);
+    /*
+    box-shadow: 0 30px 60px -12px rgba(50,5 0,93,.25), 
+                0 18px 36px -18px rgba(0,0,0,.3), 
+                0 -12px 30px -16px rgba(0,0,0,.025);
+                */
+}
+.chat__write {
+    bottom : 0px;
+    width : 100%;
+    border-radius: 0;
+    padding : 20px 60px;
+    width : 100%;
+    border : none;
+    font-size: 14px;
+}
+.chat__write:focus {
+    outline: none;
+}   /* input의  focus를 지워준다. */
+
+.chat__icon {
+    font-size : 22px;
+    transition : opacity 0.3s ease-in-out;
+}
+
+.chat__write:focus ~ .chat__icon{
+    opacity : 0;
 }
 
 .chat__write i {
     font-size: 22px;   
 }
+.chat__icon-left {
+    position : absolute;
+}
+.chat__icon-right {
+    position : absolute;
+    right : 15px;
+}
 .chat__write-column:nth-child(2) {
     width : 80%;
 }   
-.chat__write-column input {
-    padding : 20px 10px;
-    width : 100%;
-    border : none;
-    font-size: 14px;
-
-}
-.chat__write-column input:focus {
-    outline: none;
-}   /* input의  focus를 지워준다. */
 
 .chat-screen .chat__messages {
     border-top : 1px solid #f7f7f7;
