@@ -1,0 +1,1 @@
+This is Kakao-Talk Front-end, using only html, css.
